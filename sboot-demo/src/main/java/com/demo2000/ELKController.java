@@ -24,9 +24,9 @@ class ELKController {
 		return new RestTemplate();
 	}
 
-	@RequestMapping(value = "/elk")
+	@RequestMapping(value = "/Service1")
 	public String helloWorld() {
-		String response = "Welcome to JavaInUse" + new Date();
+		String response = "Hi, Join programming after so long.....\new This is my 1st Springboot Pro/Demo \n -> Today's Date & Time" + new Date();
 		LOG.log(Level.INFO, response);
 
 		return response;
